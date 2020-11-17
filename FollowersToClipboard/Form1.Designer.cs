@@ -38,6 +38,7 @@ namespace FollowersToClipboard
             this.panel7 = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.label3 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
             this.panel4 = new System.Windows.Forms.Panel();
             this.btnExaminar = new System.Windows.Forms.Button();
@@ -47,7 +48,7 @@ namespace FollowersToClipboard
             this.button1 = new System.Windows.Forms.Button();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
-            this.label3 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.bindingSource1)).BeginInit();
             this.panel1.SuspendLayout();
             this.panel7.SuspendLayout();
@@ -64,7 +65,7 @@ namespace FollowersToClipboard
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(534, 92);
+            this.panel1.Size = new System.Drawing.Size(634, 92);
             this.panel1.TabIndex = 0;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
@@ -86,7 +87,7 @@ namespace FollowersToClipboard
             this.label1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(11)))), ((int)(((byte)(7)))), ((int)(((byte)(17)))));
             this.label1.Font = new System.Drawing.Font("Lucida Sans", 13F);
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(223)))), ((int)(((byte)(219)))), ((int)(((byte)(223)))));
-            this.label1.Location = new System.Drawing.Point(93, 26);
+            this.label1.Location = new System.Drawing.Point(137, 25);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(435, 21);
             this.label1.TabIndex = 1;
@@ -107,7 +108,7 @@ namespace FollowersToClipboard
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(0, 12);
+            this.pictureBox1.Location = new System.Drawing.Point(19, 12);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(104, 68);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -116,12 +117,26 @@ namespace FollowersToClipboard
             // 
             // panel2
             // 
+            this.panel2.Controls.Add(this.label4);
             this.panel2.Controls.Add(this.label3);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.panel2.Location = new System.Drawing.Point(0, 192);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(534, 48);
+            this.panel2.Size = new System.Drawing.Size(634, 48);
             this.panel2.TabIndex = 1;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(11)))), ((int)(((byte)(7)))), ((int)(((byte)(17)))));
+            this.label3.Font = new System.Drawing.Font("Lucida Sans", 6.3F);
+            this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(223)))), ((int)(((byte)(219)))), ((int)(((byte)(223)))));
+            this.label3.Location = new System.Drawing.Point(1, 33);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(244, 13);
+            this.label3.TabIndex = 3;
+            this.label3.Text = "Copyright © 2020, All Rights Reserved By KIIO Software";
+            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // panel3
             // 
@@ -137,7 +152,7 @@ namespace FollowersToClipboard
             this.panel4.Controls.Add(this.panel6);
             this.panel4.Controls.Add(this.panel5);
             this.panel4.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel4.Location = new System.Drawing.Point(368, 92);
+            this.panel4.Location = new System.Drawing.Point(468, 92);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(166, 100);
             this.panel4.TabIndex = 3;
@@ -179,7 +194,7 @@ namespace FollowersToClipboard
             this.tbFilePath.Font = new System.Drawing.Font("Lucida Sans", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tbFilePath.Location = new System.Drawing.Point(141, 92);
             this.tbFilePath.Name = "tbFilePath";
-            this.tbFilePath.Size = new System.Drawing.Size(227, 23);
+            this.tbFilePath.Size = new System.Drawing.Size(327, 23);
             this.tbFilePath.TabIndex = 4;
             this.tbFilePath.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
@@ -192,31 +207,30 @@ namespace FollowersToClipboard
             this.button1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(223)))), ((int)(((byte)(219)))), ((int)(((byte)(223)))));
             this.button1.Location = new System.Drawing.Point(141, 149);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(336, 42);
+            this.button1.Size = new System.Drawing.Size(436, 42);
             this.button1.TabIndex = 5;
             this.button1.Text = "Copiar contenido del archivo al porapapeles";
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // label3
+            // label4
             // 
-            this.label3.AutoSize = true;
-            this.label3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(11)))), ((int)(((byte)(7)))), ((int)(((byte)(17)))));
-            this.label3.Font = new System.Drawing.Font("Lucida Sans", 6.3F);
-            this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(223)))), ((int)(((byte)(219)))), ((int)(((byte)(223)))));
-            this.label3.Location = new System.Drawing.Point(1, 33);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(244, 13);
-            this.label3.TabIndex = 3;
-            this.label3.Text = "Copyright © 2020, All Rights Reserved By KIIO Software";
-            this.label3.Click += new System.EventHandler(this.label3_Click);
+            this.label4.AutoSize = true;
+            this.label4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(11)))), ((int)(((byte)(7)))), ((int)(((byte)(17)))));
+            this.label4.Font = new System.Drawing.Font("Lucida Sans", 6.3F);
+            this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(223)))), ((int)(((byte)(219)))), ((int)(((byte)(223)))));
+            this.label4.Location = new System.Drawing.Point(607, 33);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(26, 13);
+            this.label4.TabIndex = 4;
+            this.label4.Text = "v1.0";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(11)))), ((int)(((byte)(7)))), ((int)(((byte)(17)))));
-            this.ClientSize = new System.Drawing.Size(534, 240);
+            this.ClientSize = new System.Drawing.Size(634, 240);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.tbFilePath);
             this.Controls.Add(this.panel4);
@@ -224,10 +238,10 @@ namespace FollowersToClipboard
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.MaximumSize = new System.Drawing.Size(550, 279);
-            this.MinimumSize = new System.Drawing.Size(550, 279);
+            this.MaximumSize = new System.Drawing.Size(650, 279);
+            this.MinimumSize = new System.Drawing.Size(650, 279);
             this.Name = "Form1";
-            this.Text = "KIIO: Twitch Followers name to Clipboard";
+            this.Text = "KIIO: Twitch Followers Name to Clipboard";
             ((System.ComponentModel.ISupportInitialize)(this.bindingSource1)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
@@ -260,6 +274,7 @@ namespace FollowersToClipboard
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label4;
     }
 }
 
