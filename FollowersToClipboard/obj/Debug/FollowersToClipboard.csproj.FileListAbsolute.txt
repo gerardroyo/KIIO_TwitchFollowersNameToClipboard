@@ -1,0 +1,10 @@
+C:\Users\roshs\source\repos\FollowersToClipboard\FollowersToClipboard\bin\Debug\FollowersToClipboard.exe.config
+C:\Users\roshs\source\repos\FollowersToClipboard\FollowersToClipboard\bin\Debug\FollowersToClipboard.exe
+C:\Users\roshs\source\repos\FollowersToClipboard\FollowersToClipboard\bin\Debug\FollowersToClipboard.pdb
+C:\Users\roshs\source\repos\FollowersToClipboard\FollowersToClipboard\obj\Debug\FollowersToClipboard.csprojAssemblyReference.cache
+C:\Users\roshs\source\repos\FollowersToClipboard\FollowersToClipboard\obj\Debug\FollowersToClipboard.Form1.resources
+C:\Users\roshs\source\repos\FollowersToClipboard\FollowersToClipboard\obj\Debug\FollowersToClipboard.Properties.Resources.resources
+C:\Users\roshs\source\repos\FollowersToClipboard\FollowersToClipboard\obj\Debug\FollowersToClipboard.csproj.GenerateResource.cache
+C:\Users\roshs\source\repos\FollowersToClipboard\FollowersToClipboard\obj\Debug\FollowersToClipboard.csproj.CoreCompileInputs.cache
+C:\Users\roshs\source\repos\FollowersToClipboard\FollowersToClipboard\obj\Debug\FollowersToClipboard.exe
+C:\Users\roshs\source\repos\FollowersToClipboard\FollowersToClipboard\obj\Debug\FollowersToClipboard.pdb
