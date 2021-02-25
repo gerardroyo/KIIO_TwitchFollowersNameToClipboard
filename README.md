@@ -24,4 +24,4 @@ Para sorteos:
 
 9. Finalmente hacer clic en el botón "Start Animation" para empezar el sorteo.
 
-¡Espero que te haya sido útil este mini Software que desarrollé para hacer sorteos de Followers de Twitch!
+¡Espero que te haya sido útil este mini Software que desarrollé para facilitar los sorteos de Followers de Twitch!
